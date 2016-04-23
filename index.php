@@ -173,3 +173,37 @@ echo "增加";echo "增加";
 
 ?>
 
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>0.0</title>
+</head>
+<body>
+<form action="index.php" method="post">
+	Name: <input type="text" name="name">
+
+	E-mail:<input type="text" name="email">
+
+	Website:<input type="text" name="website">
+
+	Comment:<textarea name="commrnt" rows="5" cols="40"></textarea>
+	
+    <input type="submit" name="提交">
+
+	Gender:
+    <input type="radio" name="gender" value="female">Female
+    <input type="radio" name="gender" value="male">Male
+    <form method="pist" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+
+</form>
+</body>
+</html>
+
+
+<?php 
+echo "Hellow";
+?>
+
+
