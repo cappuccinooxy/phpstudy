@@ -168,7 +168,7 @@ echo '这是第“ ' . __LINE__ . ' ” 行';
 echo '该文件位于“'.__FILE__.'” ';     
 echo '该文件位于“'.__DIR__.'” ';   
 echo "增加";echo "增加";
-echo "增加";
+//lalalallalalaalalalalawhy
 
 
 ?>
